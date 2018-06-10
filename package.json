@@ -1,6 +1,6 @@
 {
   "name": "time-ago-web-component",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Framework-independent Time Ago \"pipe.\" Web component that works with Ionic, Angular, React, Vue, vanilla Javascript, etc.  Built with Stencil.js and date-fns.",
   "main": "dist/time-ago.js",
   "types": "dist/types/index.d.ts",
@@ -18,7 +18,7 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "latest",
+    "@stencil/core": "^0.6.18",
     "date-fns": "^1.29.0"
   },
   "devDependencies": {
